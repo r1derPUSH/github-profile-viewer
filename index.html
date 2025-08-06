@@ -3,11 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>gh-profile-tracker</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="logo.svg" />
 </head>
 <body>
     
+    <main class="main">
+        <div class="inputBox">
+            <input type="text" class="input" placeholder="Enter github nickname">
+            <button class="btn" onclick="getInfo()">Find 🔍</button>
+        </div>
+        <div class="container">
+            <div class="containerOfDivs">
+                <div class="avatarContainer">
+                    <img class="avatar" src="" alt="">
+                </div>
+                <div class="infoContainer">
+                    <div class="nameAndFollowers">
+                        <div class="nameContainer">
+                            <p class="name">
+                                <a href="" class="nameHREF" target="_blank"></a>
+                            </p>
+                        </div>
+                        <div class="containerOfFollowers">
+                            <p class="followers"></p>
+                            <p class="following"></p>
+                        </div>
+                    </div>
+                    <div class="locationAndTimeCreated">
+                        <div class="containerOfLocation">
+                            <p class="location"></p>
+                        </div>
+                        <div class="containerOfDataCreation">
+                            <p class="dataCreation"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="descriptionContainer">
+                <p class="description"></p>
+            </div>
+        </div>
+    </main>
 
     <script src="main.js"></script>
 </body>
