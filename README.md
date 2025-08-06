@@ -48,4 +48,5 @@ A minimal and beautiful JavaScript app that fetches and displays GitHub user dat
 
 ## 📄 License
 
-This project is open source and free to use.№
+This project is open source and free to use.
+
