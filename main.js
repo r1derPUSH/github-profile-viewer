@@ -16,7 +16,6 @@ if (window.innerWidth < 700) {
   document.body.style.display = "none";
 }
 
-// fetch obj
 // name - login
 // avatar - avatar_url
 // bio - bio
