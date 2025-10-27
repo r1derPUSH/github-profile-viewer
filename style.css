@@ -71,10 +71,10 @@ body {
 
 .container {
   margin-top: 10vh;
-  background-color: rgba(255, 255, 255, 0.75); /* напівпрозорий білий */
-  backdrop-filter: blur(10px); /* розмиття фону */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* м’яка тінь */
-  border-radius: 20px; /* заокруглення */
+  background-color: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
   padding: 30px 40px;
   max-width: 1200px;
   width: 90%;
